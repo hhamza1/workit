@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Fruances';
+    src: url('./assets/fonts/fraunces/Fraunces.ttf') format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Manrope';
+    src: url('./assets/fonts/manrope/Manrope.ttf') format('truetype');
+  }
+
+
+:root{
+    --primary-color: #24053E;
+    --secondary-color: #584D62;
+    --btn-bg : #44FFA1;
+    --bg1 : #FCF8FF;
+    --bg2 : #fff;
+}
+
+body{
+    margin: 0;
+    padding:0; 
+    font-family: 'Manrope', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    color: var(--primary-color);
+}
+
+.wrapper {
+    padding: 0 16px;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    padding: 0;
+    margin: 0;
+}
+
+.btn-primary {
+    background-color: var(--btn-bg);
+    -ms-background-clip: text;
+    color: var(--primary-color);
+    border: 0;
+    font-size: inherit;
+    font-weight: 600;
+    font-family: 'Manrope', sans-serif;
+}
+
+.btn-primary:hover {
+    background-color: transparent;
+    color: var(--btn-bg);
+    border: 1px solid var(--btn-bg);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    color: var(--bg2);
+    text-decoration-color: var(--btn-bg);
+    border: none;
+}
+
+.btn-secondary:hover {
+    background-color: transparent;
+    color: var(--btn-bg);
+    border: 0;
+    text-decoration-color: var(--btn-bg);
+}
+
+header {
+    background-color: var(--primary-color);
+    margin: 0 -16px;
+}
+
+nav {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.heading-l {
+    font-family: 'Fruances', sans-serif;
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 80px;
+}
+
+.heading-m {
+    font-family: 'Fruances', sans-serif;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 64px;
+}
+
+.heading-s {
+    font-family: 'Fruances', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.jumbotron {
+    color: var(--bg2);
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
+}
+
+.jumbotron > button {
+    max-width: 133px;
+    padding: 12px 24px;
+}
+
+
+
+
