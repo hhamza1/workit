@@ -43,6 +43,7 @@ h1,h2,h3,h4,h5,h6,p {
     font-weight: bold;
     font-family: 'Manrope', sans-serif;
     line-height: 32px;
+    padding: 12px 24px;
 }
 
 .btn-primary:hover {
@@ -121,10 +122,6 @@ nav {
     padding-bottom: 40px;
 }
 
-.jumbotron > button {
-    padding: 12px 24px;
-}
-
 .underlined {
     border-bottom: 3px solid var(--btn-bg);
 }
@@ -145,6 +142,45 @@ nav {
 
 .features{
     padding-top: 64px;
+    text-align: center;
+}
+
+.feature {
+    padding: 40px 0;
+}
+
+.feature > h4 {
+    padding: 16px 0 24px 0;
+}
+
+.feature-no {
+    border: 1px solid var(--primary-color);
+    border-radius: 50%;
+    padding: 5px 16px;
+}
+
+.our-founder {
+    color: var(--bg2);
+    text-align: center;
+}
+
+.testimonial {
+    background-color: var(--primary-color);
+    padding: 32px 0;
+}
+
+.testimonial > p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    padding: 16px 31px;
+}
+
+.our-founder > .img-wrapper > img {
+    position: relative;
+    width: 100%;
+    max-width: 281px;
+    z-index: -1;
+    top: 65px;
 }
 
 
